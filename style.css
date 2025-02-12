@@ -1,0 +1,186 @@
+div.wholecontainer{
+
+   justify-content: center;
+   padding: auto;
+   margin: auto;
+
+}
+
+div.head{
+
+    background-color: #fef5e7;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h1.headh1{
+    color: #320000;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.headh1:hover{
+
+    color: #ff0000;
+}
+
+div.heada{
+
+    justify-content: right !important;       
+    display: flex;
+    align-content: center;
+
+
+}
+
+.heada1{
+ 
+        background-color: red;
+        border: none;
+        padding: 5px;
+    }
+
+div.main::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#main{
+
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+div.main1{
+
+    float: left;
+    width: 30%;
+    padding: 23px;
+    margin: 20px;
+    height: 380px;
+    width: 380px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    padding-top: 0px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+#box1{
+
+    text-align: center;
+    background-color: #ffebcc;
+
+}
+
+#box2{
+
+    justify-content: center;
+    background-color: #f0f8ff;
+}
+
+#box3{
+
+    text-align: center;
+    background-color : #d5f3e6;
+}
+
+#box2h2{
+
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    
+}
+.main1:hover{
+
+    transition: all 0.8s;
+    transform: scale(1.1);
+
+}
+
+.main1h2:hover{
+
+    color: #ff0000;
+}
+
+div.bottom::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+#bottom{
+
+    background-color: bisque;
+    padding: 50px;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    height: 140px;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+div.bottom1{
+
+    float: left;
+    width: 33.33%;
+
+}
+
+.bottom1h2:hover{
+
+    color: #ff0000;
+}
+
+div.lowerbottom{
+
+    background-color: #f0f8ff;
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    text-align: center;
+    padding: 100px;
+}
+
+.lowerbottomh2:hover{
+
+    color: #ff0000;
+
+}
+
+.bottoma{
+
+    text-decoration: none;
+    color: #000000;
+    border: none;
+}
+
+.bottoma:hover{
+
+    color: #ff0000;
+}
+
+
